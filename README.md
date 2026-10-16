@@ -1,16 +1,65 @@
-# React + Vite
+# ClientFlow – Customer Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+ClientFlow is a customer management application I built as my first personal project using React.js. The main goal of this project was to practise React concepts by building a real-world application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to manage customer information through a simple dashboard and customer management interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new customers with their details.
+- View customer information.
+- Update existing customer details.
+- Delete customer records.
+- Search customers by name and other available details.
+- Filter customers based on their status.
+- Sort customer records alphabetically.
+- View dashboard statistics, including total, active, and inactive customers.
+- Validate form inputs before submitting.
+- Navigate between pages using React Router.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router DOM
+- Context API
+- Vite
+- Git and GitHub
+
+## What I Learned
+
+While building this project, I practised managing state with React Hooks and Context API, creating reusable components, handling forms, implementing CRUD operations, and working with React Router.
+
+I also learned how to organize a React project and use Git and GitHub to manage my code.
+
+## How to Run the Project
+
+1. Clone this repository:
+
+   git clone https://github.com/Daivaleela/clientflow-crm.git
+   
+2. Open the project folder:
+
+   cd clientflow-crm
+   
+3. Install the dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+
+5. Open the local URL shown in the terminal.
+
+## Future Improvements
+
+I plan to improve this project by integrating a REST API, adding data persistence, and implementing authentication.
+
+## Author
+
+GitHub: https://github.com/Daivaleela
