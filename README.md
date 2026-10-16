@@ -56,6 +56,10 @@ I also learned how to organize a React project and use Git and GitHub to manage 
 
 5. Open the local URL shown in the terminal.
 
+## Live Demo
+
+Try the application here: [ClientFlow Live Demo](https://clientflow-crm-gold.vercel.app/)
+
 ## Future Improvements
 
 I plan to improve this project by integrating a REST API, adding data persistence, and implementing authentication.
