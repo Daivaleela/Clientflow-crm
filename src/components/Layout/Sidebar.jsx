@@ -40,7 +40,7 @@ import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
-    <aside className="w-64 min-h-screen shrink-0 bg-gradient-to-b from-blue-700 via-blue-600 to-indigo-600 p-4 shadow-lg flex flex-col gap-3">
+    <aside className="w-16 sm:w-20 lg:w-64 min-h-screen shrink-0 bg-gradient-to-b from-blue-700 via-blue-600 to-indigo-600 p-2 sm:p-3 lg:p-4 shadow-lg flex flex-col gap-3">
 
       {/* Dashboard Link */}
       <NavLink

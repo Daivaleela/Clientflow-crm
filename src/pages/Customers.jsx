@@ -71,7 +71,7 @@ const Customers =()=>{
 
 
     return(
-       <div className="w-full min-w-0 min-h-screen bg-gradient-to-br from-blue-100 via-blue-100 to-sky-100 p-4 md:p-6 rounded-xl">
+       <div className="w-full min-w-0 min-h-screen bg-gradient-to-br from-blue-100 via-blue-100 to-sky-100 p-4 md:p-8 rounded-xl">
             <div className="flex items-center justify-between mb-6">
                 <div>
                     <h2 className="text-3xl font-bold text-green-800"> Customers</h2>
